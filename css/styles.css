@@ -46,6 +46,10 @@ hr {
   margin: 100px auto;
 }
 
+hr:hover {
+  border-top-color: grey;
+}
+
 p {
   line-height: 2;
 }
@@ -71,13 +75,19 @@ p {
   top: 40px;
 }
 
+.top-computer {
+  margin: auto;
+
+}
+
 .intro {
   width: 30%;
   margin: auto;
 }
 
 .middle-container {
-  margin: 100px 0;
+  padding: 100px;
+  background: #FAF7F0;
 }
 
 .skill-row {
